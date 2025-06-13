@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#2a5298">
+  <title>Aplicación de la Energía en la Vida Diaria: Radio Emergencia Dínamo Solar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+  <!-- Tema Toggle -->
+  <button id="themeToggle" class="theme-toggle" title="Cambiar tema">🌙</button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h3>Diapositivas</h3>
+      <button id="closeSidebar" class="close-btn">❌</button>
+    </div>
+    <ul id="sidebarList"></ul>
+  </aside>
+
+  <!-- Toggle Sidebar -->
+  <button id="sidebarToggle" class="sidebar-toggle" title="Mostrar menú">☰</button>
+
+  <!-- Contenedor de Slides -->
+  <!-- <main id="slides-container"></main> -->
+  <div id="slides-container" class="slideshow">
+
+    <!-- Controles Navegación -->
+    <div class="controls" id="controls">
+      <button id="prev" class="nav-btn">⏮</button>
+      <button id="next" class="nav-btn">⏭</button>
+    </div>
+
+    <!-- Slide Indicator separado -->
+    <div id="slideIndicator" class="slide-indicator">1 / 40</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
